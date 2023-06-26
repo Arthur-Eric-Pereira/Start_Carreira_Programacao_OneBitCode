@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url(../imagens/wallpaperFormandos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .header {
+    background-color: rgb(10, 10, 85);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer {
+    background-color: rgb(10, 10, 85);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+  }
+
+  .container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .buttonPortalAluno {
+    background-color: rgb(12, 12, 134);
+  }
+
+  .buttonBlackboard {
+    background-color: rgb(31, 94, 228);
+  }
+
+  .captcha-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .captcha-image {
+    margin-bottom: 10px;
+    width: 220px;
+  }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style-login.css">
+  <link rel="shortcut icon" href="../imagens/marcaFsgFavicon.svg" type="image/x-icon">
+  <title>Portal do Aluno FSG</title>
+</head>
+<body>
+  <header class="header">
+    <img src="../imagens/fsg-header.svg" alt="logo-fsg-header" class="logoFSG">
+    <h1>Seja Bem Vindo</h1>
+  </header>
+
+  <div class="container">
+    
+    <form>
+        
+      <div class="form-group">
+        <label for="username"><img src="../imagens/icone-usuario.png" alt="username" width="25px"> Usuário:</label>
+        <input type="text" id="username" name="username" placeholder="Digite seu usuário">
+      </div>
+
+      <div class="form-group">
+        <label for="password"><img src="../imagens/icone-cadeado.png" alt="password" width="25px"> Senha:</label>
+        <input type="password" id="password" name="password" placeholder="Digite sua senha">
+      </div>
+
+      <div class="captcha-container">
+        <img src="../imagens/newCaptchaAnchor.gif" alt="Captcha" class="captcha-image">
+      </div>
+
+      <div class="form-group">
+        <button class="buttonPortalAluno">Portal do Aluno</button>
+      </div>
+
+      <div class="form-group">
+        <button class="buttonBlackboard">Blackboard</button>
+      </div>
+
+    </form>
+  </div>
+
+  <footer class="footer">
+    <p><img src="../imagens/fsg-icon-footer.svg" alt="logo-fsg-footer" width="200px"></p>
+    <p>FSG 2023 &copy; </p>
+  </footer>
+</body>
+</html>
